@@ -1,4 +1,4 @@
-package com.example.bmi2;
+package com.example.bmiHW;
 
 import androidx.appcompat.app.AppCompatActivity;
 
