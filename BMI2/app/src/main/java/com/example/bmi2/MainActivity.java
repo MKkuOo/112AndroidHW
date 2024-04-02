@@ -35,7 +35,7 @@ public class MainActivity extends AppCompatActivity {
 
                     if (heightStr.isEmpty() || weightStr.isEmpty()) {
                         txvShow.setTextColor(Color.BLUE);
-                        txvShow.setText("請輸入數字");
+                        txvShow.setText("請輸入數字!");
                         return;
                     }
                     double height = Double.parseDouble(heightStr);
@@ -43,7 +43,7 @@ public class MainActivity extends AppCompatActivity {
 
                     if (height == 0 || weight == 0) {
                         txvShow.setTextColor(Color.BLUE);
-                        txvShow.setText("請輸入正確數值");
+                        txvShow.setText("請輸入正確數值!");
                         return;
                     }
                     double bmi = weight / Math.pow(height / 100.0, 2);
