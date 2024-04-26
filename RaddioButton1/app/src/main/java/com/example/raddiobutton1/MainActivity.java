@@ -1,3 +1,4 @@
+//A111222009
 package com.example.raddiobutton1;
 
 import androidx.appcompat.app.AppCompatActivity;
@@ -10,6 +11,8 @@ import android.widget.EditText;
 import android.widget.RadioButton;
 import android.widget.RadioGroup;
 import android.widget.TextView;
+
+import com.example.raddiobutton1.MainActivity2;
 
 public class MainActivity extends AppCompatActivity {
 
