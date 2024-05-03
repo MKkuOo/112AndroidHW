@@ -1,8 +1,14 @@
 <resources>
-    <string name="app_name">RaddioButton1</string>
-    <string name="male">男生</string>
-    <string name="female">女生</string>
-    <string name="regularticket">全票</string>
-    <string name="childticket">兒童票</string>
-    <string name="studentticket">學生票</string>
+    <string name="app_name">BuyTickets2024</string>
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+    <string name="regularticket">Regular Ticket</string>
+    <string name="childticket">Children Ticket</string>
+    <string name="studentticket">Student Ticket</string>
+    <string name="confirm">Confirm</string>
+    <string name="numberOfTickets">Count : </string>
+    <string name="ticketType">Ticket Type : </string>
+    <string name="gender">Gender : </string>
+    <string name="total">Total : </string>
+    <string name="detail">Order details : </string>
 </resources>

@@ -26,7 +26,7 @@ public class MainActivity2 extends AppCompatActivity {
             double ticketPrice = intent.getDoubleExtra("ticketPrice", 0.0);
 
             // 構建要顯示的文字
-            String displayText = gender + "\n"
+            String displayText = "訂單明細: " + "\n" + gender + "\n"
                     + ticketType + ticketCount + "張" + "\n"
                     + "金額 " + formatAmount(ticketPrice) + "元";
 
