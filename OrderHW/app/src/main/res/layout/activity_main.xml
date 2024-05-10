@@ -57,13 +57,27 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginLeft="16dp"
-        android:layout_marginTop="22dp"
+        android:layout_marginTop="28dp"
         android:checked="false"
         android:text="玉米濃湯"
         android:textSize="25sp"
         app:layout_constraintLeft_toRightOf="@+id/img3"
         app:layout_constraintTop_toBottomOf="@+id/chk2"
         tools:layout_constraintLeft_creator="1"
+        tools:layout_constraintTop_creator="1" />
+
+    <ImageView
+        android:id="@+id/img4"
+        android:layout_width="30dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="3dp"
+        android:layout_marginBottom="3dp"
+        app:layout_constraintBottom_toBottomOf="@+id/chk4"
+        app:layout_constraintLeft_toRightOf="@+id/chk4"
+        app:layout_constraintTop_toTopOf="@+id/chk4"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@mipmap/soup"
+        tools:layout_constraintBottom_creator="1"
         tools:layout_constraintTop_creator="1" />
 
     <CheckBox
@@ -114,19 +128,6 @@
         app:layout_constraintLeft_toRightOf="@+id/chk3"
         app:layout_constraintTop_toTopOf="@+id/chk3"
         app:srcCompat="@mipmap/softdrink"
-        tools:layout_constraintBottom_creator="1"
-        tools:layout_constraintTop_creator="1" />
-
-    <ImageView
-        android:id="@+id/img4"
-        android:layout_width="30dp"
-        android:layout_height="0dp"
-        android:layout_marginTop="3dp"
-        android:layout_marginBottom="3dp"
-        app:layout_constraintBottom_toBottomOf="@+id/chk4"
-        app:layout_constraintLeft_toRightOf="@+id/chk4"
-        app:layout_constraintTop_toTopOf="@+id/chk4"
-        app:srcCompat="@mipmap/soup"
         tools:layout_constraintBottom_creator="1"
         tools:layout_constraintTop_creator="1" />
 
