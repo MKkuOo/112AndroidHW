@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Single Spinner for selecting meal type -->
+    <Spinner
+        android:id="@+id/type_spinner"
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:entries="@array/meal_types" />
+
+    <!-- Container for dynamically generated buttons based on meal type selection -->
+    W<LinearLayout
+    android:id="@+id/choose_LL"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingTop="16dp">
+    <!-- Buttons will be added here programmatically -->
+</LinearLayout>
+
+    <!-- Display Selected Item -->
+    <TextView
+        android:id="@+id/show_txv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:text="主餐: \n附餐: \n飲料: "
+        android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+</LinearLayout>
