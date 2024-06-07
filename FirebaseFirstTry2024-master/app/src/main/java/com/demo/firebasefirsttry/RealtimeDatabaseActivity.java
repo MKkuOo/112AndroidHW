@@ -49,7 +49,7 @@ public class RealtimeDatabaseActivity extends AppCompatActivity {
     }
 
     private void getRealtimeValue() {
-        FirebaseDatabase database = FirebaseDatabase.getInstance("https://fir-demo2024-e7a88-default-rtdb.asia-southeast1.firebasedatabase.app/");
+        FirebaseDatabase database = FirebaseDatabase.getInstance("https://fir-demo2024-92bb3-default-rtdb.asia-southeast1.firebasedatabase.app/");
         DatabaseReference ref = database.getReference("messages");
         ref.addValueEventListener(new ValueEventListener() {
             @Override
@@ -69,7 +69,7 @@ public class RealtimeDatabaseActivity extends AppCompatActivity {
     }
 
     private void useRealtimeDatabase(String content) {
-        FirebaseDatabase database = FirebaseDatabase.getInstance("https://fir-demo2024-e7a88-default-rtdb.asia-southeast1.firebasedatabase.app/");
+        FirebaseDatabase database = FirebaseDatabase.getInstance("https://fir-demo2024-92bb3-default-rtdb.asia-southeast1.firebasedatabase.app/");
         DatabaseReference ref = database.getReference("messages");
         ref.setValue(content);
     }
